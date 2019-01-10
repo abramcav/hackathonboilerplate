@@ -1,0 +1,11 @@
+{
+    "name":"hackathon CommandBox Commands",
+    "version":"0.0.0",
+    "author":"anonymous",
+    "type":"commandbox-modules",
+    "homepage":"",    
+    "slug":"hackathon-commands",
+    "shortDescription":"hackathon Commands.",
+    "keywords":"hackathon,Commands",
+    "private":true
+}
