@@ -120,7 +120,7 @@ component extends="commandbox.system.BaseCommand" {
             ,'                        .-:/+-              Credits:                  .+s.   `-+sssssso-            '
             ,'                 .-:/++++/:-.`               Programmers:              `/+      -+ssssss/           '
             ,'              .:oosssssso+++//:.              * Abram Adams              /`      `:ssssss:          '
-            ,'              .:oosssssso+++//:.              * Timothy Farrar            /`      `:ssssss:          '
+            ,'              .:oosssssso+++//:.              * Timothy Farrar            /`      `:ssssss:         '
             ,'            `/ossssso/-``     ``                                         ``        :ssssss.         '
             ,'           .ossssso:`                                                               /sssss:         '
             ,'          .osssss+`                          Story:                                 .sssss/         '
