@@ -5,8 +5,6 @@
     "contributors":[],
     "dependencies":{
         "hackathon-commands":"folder:utilities/",
-        "images":"folder:images/",
-        "stories":"folder:stories/",
         "Commandbox-ImagetoASCII":"https://github.com/bdw429s/CommandBox-Image-To-ASCII"
     },
     "description":"",
