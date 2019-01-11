@@ -62,9 +62,9 @@ component extends="commandbox.system.BaseCommand" {
     function endGame( scene ){
         
         if( scene.success ){
-            renderSceneImage( 'assets/images/success.png' )
+            renderSceneImage( 'images/success.png' )
         } else {
-            renderSceneImage( 'assets/images/failure.png' )
+            renderSceneImage( 'images/failure.png' )
         }
 
         var playAgain = question( "That's it! You want to do it again?", [{ display: "I have nothing better to do! YES! Let's play!!!", value: "1"},{ display: "Time for standup - no time!", value: "0"}]  ).ask();
