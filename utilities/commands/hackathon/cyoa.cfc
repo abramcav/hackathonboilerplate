@@ -1,30 +1,28 @@
 /**
-* This command will launch a Choos Your Own Adventure game
+* This command will launch a Choose Your Own Adventure game
 * This is how you call it:
 *
 * {code:bash}
-* hackathon cyoa
+* hackathon cyoa --voice
 * {code} 
 * 
 **/
 component extends="commandbox.system.BaseCommand" {
-
-    function run() {
-
+   /**
+     * docker up
+     *
+     * @voice.hint True tells CYOA to voice the text as well as display
+    */
+    function run( boolean voice = false ) {
+        this.voice = voice;
         this.gameComplete = false;
 
-        variables.story = deserializeJSON( fileRead( getAssetsPath() & 'assets/stories/spaceFight.json' ) );        
+        variables.story = deserializeJSON( fileRead( 'assets/stories/spaceFight.json' ) );        
         command( '!clear' ).run();
         // Let the game begin!
         gameLoop( story );
         
         return;
-    }
-
-    private function getAssetsPath() {
-
-        return '';
-
     }
 
     function gameLoop( story = variables.story, choice = "initial story" ){
@@ -33,11 +31,11 @@ component extends="commandbox.system.BaseCommand" {
             return section.story == choice;
         });
 
-        this.gameComplete = isGameComplete( arguments.story, scene, arguments.choice );
+        scene = scene.len() ? scene[1] : {};
+        this.gameComplete = isGameComplete( story, scene, choice );
         
-        scene = arrayLen( scene ) ? scene[1] : {};
 
-        if ( len( scene.image ) )
+        if ( scene.image.len() )
             renderSceneImage( scene.image );
 
         // If this was the first scene, set the choice to "0" so future choices can build on that
@@ -51,7 +49,7 @@ component extends="commandbox.system.BaseCommand" {
             return endGame( scene );
 
         // No?, well prompt the next choices
-        var answer = question( "What would you like to do?", [{ display: scene.button1, value: "1"},{ display: scene.button2, value: "2"}]  ).ask();
+        var answer = question( "What would you like to do?", [{ display: scene.button1, value: "1"},{ display: scene.button2, value: "2"}]  );
         // recurse to next scene (choice & answer, i.e. User chose second option on the first scene = "012", first option on the second scene = "0121", etc...)
         gameLoop( story, choice & answer );
 
@@ -67,7 +65,7 @@ component extends="commandbox.system.BaseCommand" {
             renderSceneImage( 'images/failure.png' )
         }
 
-        var playAgain = question( "That's it! You want to do it again?", [{ display: "I have nothing better to do! YES! Let's play!!!", value: "1"},{ display: "Time for standup - no time!", value: "0"}]  ).ask();
+        var playAgain = question( "That's it! You want to do it again?", [{ display: "I have nothing better to do! YES! Let's play!!!", value: "1"},{ display: "Time for standup - no time!", value: "0"}]  );
         
         if( playAgain ){
             return gameLoop();
@@ -76,31 +74,48 @@ component extends="commandbox.system.BaseCommand" {
         gameOverASCII();
     }
 
-    function isGameComplete( story, currentScene, selectedChoice ){
+    function isGameComplete( story, struct currentScene, selectedChoice ){
 
-        if ( !arrayLen( arguments.currentScene ) )
+        if ( !currentScene.len() )
             return true;
 
-        if( arguments.currentScene[1].display == 'none' )
+        if( currentScene.display == 'none' )
             return true;
 
         return false;
 
     }
 
+    function sayQuestion( question, options ){
+        say( question.reReplace("<[^>]*>", "","all") );
+        var speakOptions = options.reduce( (prev,cur)=>{
+            prev.append( cur.display.reReplace("<[^>]*>", "","all") );
+                return prev;
+        }, []).toList(" or ");
+        say( speakOptions );
+    }
+
+    function say( text ){
+        if( this.voice )
+            command('!say "#text.reReplace("<[^>]*>", "","all")#"').run();
+    }
+
     function question( string question, array options ){
-      return multiselect()
-              .setQuestion( question )
-              .setOptions( options )
-                  .setRequired( true )
-                  .setMultiple( false );
+        sayQuestion( question, options );
+        return multiselect()
+                    .setQuestion( question )
+                    .setOptions( options )
+                    .setRequired( true )
+                    .setMultiple( false ).ask();
     }
 
     function printFormattedSceneText( text ){
-        text = text.replaceNoCase('<br>',chr(999),'all');
-        text.listToArray(chr(999)).each( (line)=>{
+        var formattedText = text.replaceNoCase('<br>',chr(999),'all')
+                                .reReplace("<[^>]*>", "","all");
+        formattedText.listToArray(chr(999)).each( (line)=>{
             print.boldGreenLine( line ).toConsole();            
         });
+        say( text );
 
         return;
     }
@@ -155,10 +170,9 @@ component extends="commandbox.system.BaseCommand" {
         var uniqueImagePath = getTempDirectory() & createUUID() & "." & listLast( path, "." );
        
         fileCopy( 'assets/' & path, uniqueImagePath );
-
-        return print.text(
-            command( 'ImageToASCII' )
-            .params( uniqueImagePath ).run()).toConsole();
+        
+        command( 'ImageToASCII' )
+            .params( uniqueImagePath ).run();
 
     }
 
