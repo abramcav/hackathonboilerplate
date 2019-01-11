@@ -1,0 +1,535 @@
+[
+  {
+    "button1": "Go with Yonek to Athron and become a robotic engineer",
+    "button2": "Go with Danii and become a traveling ship engineer",
+    "display": "",
+    "image": "images/trinary.jpg",
+    "story": "initial story",
+    "text": "TEST:::Our story begins on a small planet in a trinary system (a solar system with three suns). You are twenty years old and live in a small village just outside of town. Recently, you finished school as an engineer and are deciding what to do next. A friend, named Yonek, wants you to join him as a robotics engineer in the big city of Athron. Another friend, Danii, thinks you should become a traveling ship engineer with her. <br><br><strong>Decision, decisions...</strong>"
+  },
+  {
+    "button1": "Climb up the hillside",
+    "button2": "Follow the river",
+    "display": "",
+    "image": "",
+    "story": "01",
+    "text": "The next morning, you meet Yonek at his house and you start your journey to Athron. You ask Yonek how long the trip will take. <br><br>Yonek replies, &#34;It will take about six hours to get to Athron.&#34; <br><br>Both of you get on your speeders and begin your trip. About halfway through your trip, a giant storm moves in begins to flood the highway with water and ice. A huge gust of wind knocks you off your speeder. You go tumbling down a hillside into a canyon. Luckily, a safety bubble deployed when you were disengaged from the speeder. You climb out of the bubble and have a decision to make... Climb back up the hillside or follow the river that runs along the canyon bottom?"
+  },
+  {
+    "button1": "The transport ship",
+    "button2": "The scout ship",
+    "display": "",
+    "image": "",
+    "story": "02",
+    "text": "The next morning, you meet Danii at her house. Both of you head to town on your speeders. You must catch the next transport ship heading to the main ship hub in the southern part of the planet. Danii asks you if you would like a snack while you wait. <br><br>You reply, &#34;No thanks. I ate a big breakfast this morning.&#34; <br><br>Finally, a ship arrives and swiftly takes you to the main ship hub. Upon arrival, both you and Danii must find a ship that needs engineers. You come across two ships willing to take both of you. One of the ships is a large transport ship that hauls cargo all throughout the galaxy. The ship is a bit slow, since it hauls cargo, but there is lots of space and plenty of free time. The other ship is a smaller scout ship that travels to distant regions all over the galaxy. It is much faster, but it is a bit cramp and travels to potentially dangerous places. Which ship should you and Danii pick?"
+  },
+  {
+    "button1": "Make a run for it!!!",
+    "button2": "Venture deeper into the cave and find out what might be in there",
+    "display": "",
+    "image": "",
+    "story": "011",
+    "text": "You start the climb up the hillside, but it&#39s really muddy and you keep sliding back down to the bottom. Exhausted, you look for a dry area to rest. You spot what looks like a cave, so you carefully walk over and examine it. You are aware of the legends about  a dragon-like beast that live in these hills, so you grab a large stick just in case. The emergency bubble had a survival kit, so you take the flashlight out and shine it inside the cave. As you shine the light deeper inside the cave, you notice what looks like a pair of eyes staring back at you. Yikes!!! Should you make a run for it out of the cave or do you find out what might be in the cave?"
+  },
+  {
+    "button1": "I want to build robot pilots",
+    "button2": "I want to build robot spies",
+    "display": "",
+    "image": "",
+    "story": "012",
+    "text": "You start walking along the river bank. It is cold and wet, but you continue along the river until you see a bridge. In the distance, you notice somebody on a speeder waving at you. It&#39s Yonek!!! When you finally reach the bridge and Yonek, he hands you hot cup of tea. <br><br>He asks, &#34;What happened to you? All of a sudden, I looked back and you weren&#39t there, so I pulled over at the first bridge crossing hoping you would show up.&#34; <br><br>You reply, &#34;I fell off my speeder and slid down a hillside, so I decided to follow the river out. I am so happy to see you!&#34; <br><br>Once you warm up and dry off a bit, you climb on the back of Yonek&#39s speeder and the two of you finish your ride to Athron. You finally make it to the big city. Upon arrival, there are lots of robotic companies looking for new engineers. Both you and Yonek narrow the offers down to two. One company offers the chance to build robots that can pilot ships. The other company builds robots that carry out spy missions. Which sounds best?"
+  },
+  {
+    "button1": "Join her",
+    "button2": "Battle her",
+    "display": "",
+    "image": "",
+    "story": "021",
+    "text": "You and Danii board the transport ship the next afternoon. Your next destination is a planet called Danobulan. The captain instructs you to take a look at the starboard (right-side) engine. He says it has been acting funny and is not 100 percent. While working on the engine, the ship comes to a full stop. Puzzled, you leave the engine room to find out what has happened. You hear a large blast, so you take cover. There is a lot of shouting and you spot the captain with another figure in the shadow. Suddenly, the shadowy figure pulls out an energy sword and strikes the captain down. You gasp as he hits the floor. The shadowy figure notices you and casually walks over to your position. Petrified with fear, you are speechless. The figure removes her hood and glares at you with her glowing eyes. <br><br>She demands, &#34;Join me or perish!!!&#34; <br><br>You are left with two choices, join her or battle her"
+  },
+  {
+    "button1": "Save Danii",
+    "button2": "Run for safety",
+    "display": "",
+    "image": "",
+    "story": "022",
+    "text": "You and Danii board the scout ship the next afternoon. Your next destination is a planet called Karak. The captain asks both you and Danii to take a look at the ventral cannon. He says the cannon locks up from time to time. Both of you get to work on the cannon. About two hours into the repair, a shipwide alarm goes off. The captain instructs everybody to get to their battle stations. As engineers, both you and Danii are told to report to the engine room. The lead engineer puts you in charge of the cooling system which is located on the port (left) side of the engine room. While monitoring the cooling system, a huge explosion rips the engine room apart. You look over and see Danii barely hanging onto a piece of pipe. She is about to be sucked into space. Do you go over and help her or do you run for safety?"
+  },
+  {
+    "button1": "Go for the sword",
+    "button2": "Apologize to the creature",
+    "display": "",
+    "image": "",
+    "story": "0111",
+    "text": "You make a run for it!!! Whatver is inside the cave becomes startled and releases a loud bellow. You lose your balance and trip over a rock falling to the ground. The ground is soaked from the rain, so you struggle to get up. The creature releases another loud bellow and you can feel that it is right behind you!!! You quickly turn around. Towering above you is creature with the head of a dragon and the body of humanoid robot. It pauses for a moment... <br><br>&#34;Why have you dared to wake me during my slumber?&#34;, the creature roars. <br><br>Caught off-guard, you are uncertain how to respond. In the distance you spot a sword, but it&#39s buried under mud and you aren&#39t sure if the sword is broken. You can either go for the sword or try to apologize to the creature for waking it."
+  },
+  {
+    "button1": "Say, &#34;Hello&#34;",
+    "button2": "Throw your flashlight at the creature and run",
+    "display": "",
+    "image": "",
+    "story": "0112",
+    "text": "You venture deeper into the cave. As you continue deeper into the cave, the eyes shining back at you become bigger and bigger. In the shadows, the outline of a large figure begins to unfold under your light. A full head begins to emerge. It looks like a dragons head, with it&#39s eyes staring right at you; however, it sounds like it is snoring. The creature must be able to sleep with its eyes open. Suddenly, the snoring stops... <br><br>The creature turns its eyes toward you and says, &#34;Greetings, youngling.&#34; <br><br>In a state of confusion, you can either reply to the creature or throw your flashlight at it and run."
+  },
+  {
+    "button1": "Grab the small sword",
+    "button2": "Grab the long staff",
+    "display": "",
+    "image": "",
+    "story": "0121",
+    "text": "You decide to build pilots with Yonek. The next morning, your boss asks both you and Yonek to report to Hanger #3. You will be traveling to an outer rim planet that houses a factory for one its new prototypes. You board the ship and take off for the distant planet. The project will take a month, so you&#39re happy you won&#39t be gone too long. An hour into your flight, the ship begins to make evasive maneuvers. Over the communication system, the captain announces the ship is under attack. A huge explosion rips a giant hole in your ship and everbody starts running toward the escape pods. Before you make it to an escape pod, you get stunned and you fall helplessly to the floor. <br><br>When you awaken, you find yourself laying on the floor in the middle of a large room. <br><br>A figure lurks in the shadows and declares, &#34;Choose a weapon!!!&#34; <br><br>There are only two weapons available; a small sword or a long staff."
+  },
+  {
+    "button1": "Join Megatronic",
+    "button2": "Battle Megatronic",
+    "display": "",
+    "image": "",
+    "story": "0122",
+    "text": "You decide to build spies with Yonek. The next morning, your boss instructs you to report to the lower engineering facility. Upon arrival, all of the lights go out except for a powerful one that illuminates just the center of the room. As you walk toward the center of the room a large robotic figure appears from the opposite side. <br><br>The figure moves into the light and introduces himself, &#34;I am Megatronic. Join me and my band of marauders or battle to your doom!!!&#34;"
+  },
+  {
+    "button1": "Overpower the guard and rescue Danii",
+    "button2": "Follow Putrice and join her group",
+    "display": "",
+    "image": "",
+    "story": "0211",
+    "text": "You decide to join her. <br><br>She introduces herself, &#34;You have chosen wisely. My name is Putrice, a leader in the evil kingdom of Zagreb.&#34; <br><br>Uncertain of what you have just joined, you go along with Putrice. She instructs you to join her on her ship, so you leave your old ship behind and board her cruiser. Once on board, you notice that they have captured your friend Danii. In that moment, you notice that you have an opening... You can overpower the guard that is holding Danii and grab his blaster, then make a run for it back to your old ship or you can continue to follow Putrice and become part of her group."
+  },
+  {
+    "button1": "Roll under and attack from behind",
+    "button2": "Roll to the side and attack from the side",
+    "display": "",
+    "image": "",
+    "story": "0212",
+    "text": "You decide to battle her. <br><br>She introduces herself, &#34;You have chosen poorly. My name is Putrice, a leader in the evil kingdom of Zagreb.&#34; <br><br>She throws a saber on the ground in front of you and instructs you to pick it up. You bend down to grab the saber. As soon as it&#39s in your hands, Putrice lunges at you with her saber. Luckily, you&#39ve had training and know how to handle a saber. You quickly parry her attack and you begin your counter-attack. As she lunged to your left side, you try to attack from your right. You try to swipe at her head, but she quickly ducks and gives you a kick to your ribs. You fall backwards to the ground, but quickly get back on your feet. Putrice attempts a jumping frontal attack at you. Should you try to roll under her jump and attack from behind or roll to the side and attack from the side?"
+  },
+  {
+    "button1": "Chart a path to the asteroid field",
+    "button2": "Chart a path to the nebula",
+    "display": "",
+    "image": "",
+    "story": "0221",
+    "text": "You run over to save Danii from the suction of space. With all your strength, you are able to pull her from that room. Both of you run out of that section of the ship to safety. Since you are an experienced pilot, Danii suggests you get to the cockpit while she goes to the cannon. You agree and run to the cockpit. Both pilots are gone and the ship is still under attack. You grab the controls and notice the ventral cannons firing at the enemy ship. It&#39s Danii, giving cover fire. You take that moment to chart either a path to a nearby asteroid field or a nearby nebula. You might be able to lose the other ship in the asteroid field, but you could also get crushed by a giant asteroid or you might be able to hide in the clouds of the nebula, but there may steer into a storm that could destroy the ship."
+  },
+  {
+    "button1": "Take the escape pod",
+    "button2": "Get to the armory",
+    "display": "",
+    "image": "",
+    "story": "0222",
+    "text": "You run to safety and sadly Danii gets sucked out into space. You continue to the cockpit where you find it empty. With no other crew members around, you are on yor own. You take the controls and pilot away from the enemy ship. The enemy ship pursues and keeps firing on your ship. The engine begins to sputter and finally stops working. It catches fire and you are stuck sitting in space. There are two options... Either take an escape pod and hope the enemy ship doesn&#39t detect you, or get to the armory and grab some weapons to defend the ship when the enemy ship boards your ship."
+  },
+  {
+    "button1": "Make a run for the entrance",
+    "button2": "Hope there is another exit deeper in the cave",
+    "display": "",
+    "image": "",
+    "story": "01111",
+    "text": "You make a run for the sword. With the dragon throwing ice rocks in your direction, you reach the sword and find out it has been broken in half. The piece remaining is the blade; the hilt is missing! Without the handle, there is no way to pick up the blade and use it against the dragon. With no weapon, your choices are limited. The dragon is also between you and the opening of the cave. Do you try to make a run for the entrance or hope there is another exit deeper in the cave?"
+  },
+  {
+    "button1": "Help the dragon creature",
+    "button2": "Get out of the way",
+    "display": "",
+    "image": "",
+    "story": "01112",
+    "text": "You apologize to the creature for waking and startling it. <br><br>The creature bellows, &#34;Argh, I accept your apology... Why are you in my cave?&#34; <br><br>You reply, &#34;I fell into the canyon and was looking for a place to rest out of the rain.&#34; <br><br>The dragon offers you some food and you accept. While enjoying a meal, there is a loud bang and bright flash. Some soldiers start raiding the cave firing their blasters toward the dragon. You are caught in the fire... Do you help the dragon and fight the soldiers or do you get out of the way and hope the soldiers leave you along?"
+  },
+  {
+    "button1": "Help the dragon creature",
+    "button2": "Get out of the way",
+    "display": "",
+    "image": "",
+    "story": "01121",
+    "text": "You uneasily say, &#34;Hello? <br><br>The creature moves out of the shadows and displays its dragon head and humanoid robotic body. You are a bit startled at what you see, but you hide your fear and apologize for disturbing it.&#34; <br><br>The dragon replies, &#34;Why have you entered my lair?&#34; <br><br>You state, &#34;I fell down the hillside and was looking for a dry place to rest out of the storm.&#34; <br><br>The creature invites you to a meal and you accept. While enjoying a meal, there is a loud bang and bright flash. Some soldiers start raiding the cave firing their blasters toward the dragon. You are caught in the fire... Do you help the dragon and fight the soldiers or do you get out of the way and hope the soldiers leave you along?"
+  },
+  {
+    "button1": "Keep running",
+    "button2": "Help the soldiers",
+    "display": "",
+    "image": "",
+    "story": "01122",
+    "text": "You throw your flashlight at the creature, hitting it in the head, and you run for your life! The dragon creature lets out a deafening roar. It almost knocks you over... You stumble a bit, but keep running toward the entrance of the cave. A huge flow of ice comes rushing by you, barely missing your right arm. You look back and realize the creature is an ice dragon. Just as you reach the entrance of the cave, several small ships land in front of you and soldiers rush out. They begin firing at the dragon! Do you keep running or help the soldiers?"
+  },
+  {
+    "button1": "Block her attack",
+    "button2": "Roll away",
+    "display": "",
+    "image": "",
+    "story": "01211",
+    "text": "You decide to grab the small sword. <br><br>The shadowy figure introduces herself, &#34;I am Stabula, the leader of the evil Morok Clan. Prepare for battle!!!&#34; <br><br>She draws her two-handed sword and quickly makes a lunging attack at you, which you barely dodge. You swing your sword at her and she easily blocks your attack. Stabula kicks you in the leg and you fall. She sends her sword hurdling toward your head... Do you try to block her attack with your sword or do you try to roll away?"
+  },
+  {
+    "button1": "A quick jab to her mid-section",
+    "button2": "Sweep her legs",
+    "display": "",
+    "image": "",
+    "story": "01212",
+    "text": "You decide to grab the long staff. You notice that is suprisingly light and strong. <br><br>The shadowy figure introduces herself, &#34;I am Stabula, the leader of the evil Morok Clan. Prepare for battle!!!&#34; <br><br>She draws her two-handed sword and quickly makes a lunging attack at you, which you barely dodge. You twirl the staff toward her and you land a blow to her back. She takes her huge sword and sends it hurdling toward your head which you quickly parry with your staff. You find the staff to be very easy to use. Next, she tries a quick jab kick to your side, but you block with your staff. You decide what your next move should be. A quick jab with the end of your staff to her mid-section or sweep her legs with the staff?"
+  },
+  {
+    "button1": "Sweep his legs",
+    "button2": "Jump to my feet",
+    "display": "",
+    "image": "",
+    "story": "01221",
+    "text": "You decide to join Megatronic. <br><br>He states, &#34;You must complete a challenge and win a battle versus a good person to show you are truly evil!!!&#34; <br><br>He summons his assistant to bring out a challenger. Out strolls Yonek, your friend. Both of you are given small sabers. The battle begins and you quickly swing your saber at Yonek&#39s side. He blocks your attack, but you land a kick to his leg. Yonek stumbles backward and you continue your attack by swinging your saber to his other side. This time he ducks and rolls away. He jumps and swiftly lands a kick to your head. You fall to the ground and block his next attack with his saber. Laying the ground, you can try to sweep his legs or try to jump to your feet."
+  },
+  {
+    "button1": "Make a run for it",
+    "button2": "Continue the battle",
+    "display": "",
+    "image": "",
+    "story": "01222",
+    "text": "You decide to battle Megatronic. <br><br>He chuckles, &#34;Ha, ha, ha... You dare challenge me!!! Foolish.&#34; <br><br>He throws a tiny sword at your feet. You reluctanly pick it up. Megatronic unsheathes an enormous two-handed sword. You look at your puny sword and wonder how to defeat him. There is little time to think as Megatronic begins the fight with a giant swipe with his sword. You barely evade the tip and try a counter attack but he blocks your attack. He rushes you and knocks you down to the ground. You try to swipe at him with your sword to keep him away. Behind him, you notice a small light. It might be a doorway, do you make a run for it or continue the battle?"
+  },
+  {
+    "button1": "The left corridor",
+    "button2": "The right corridor",
+    "display": "",
+    "image": "",
+    "story": "02111",
+    "text": "You overpower the guard and grab the guard&#39s blaster. You fire the blaster at the restraints on Danii and fire a few shots toward Putrice to keep her away. She and her guards take cover, but quickly begin firing back. Both you and Danii run back toward your ship. You keep firing behind you to give some cover as your search for the way back. There is a fork in the passagway. Do you choose the left corridor or the right corridor?"
+  },
+  {
+    "button1": "Weapons engineer",
+    "button2": "Navigational engineer",
+    "display": "",
+    "image": "",
+    "story": "02112",
+    "text": "You ignore Danii and follow Putrice. Danii looks at you with sadness and disgust. Putrice takes you to the command module of her ship and invites you take a seat. She commands her crew to destroy your ship, so they fire multiple blasts and cause a large explosion. They chart a course back to their headquarters. Putrice makes an anouncement that you will be joining the group, but you must decide which position you want to tryout for. In their society, you must have a thumb war to battle for the right to hold a position. <br><br>She declares, &#34;You may choose between two positions: weapons engineer or navigational engineer.&#34;"
+  },
+  {
+    "button1": "Yes",
+    "button2": "No",
+    "display": "none",
+    "success": false,
+    "image": "",
+    "story": "02121",
+    "text": "You decide to roll under Putrice and attack from behind. She is ready for your attack and quickly blocks your lunge. At the same time, she disarms you and your saber goes flying to the other side of the room. Putrice reveals a blaster and fires it at you. <br><br>YOU HAVE BEEN DISINTEGRATED!!!"
+  },
+  {
+    "button1": "Swift chop",
+    "button2": "Sweep her legs",
+    "display": "",
+    "image": "",
+    "story": "02122",
+    "text": "You decide to roll to the side and attack Putrice from the side. She is unprepared and you wound her ribs. Putrice recovers and makes a swipe at you, which you are able to parry. You attempt to jump at her and swing your saber downward at her. She is just able to block your attack, but you keep pushing down on your saber forcing her backwards. Putrice starts to stumble... Do you try to finisher her with a swift chop with your saber or with a sweep of her legs?"
+  },
+  {
+    "button1": "Steer left",
+    "button2": "Steer right",
+    "display": "",
+    "image": "",
+    "story": "02211",
+    "text": "You decide to chart a path to the asteroid field. With the enemy vessel in quick pursuit, you make it to the asteroid field. You pilot the ship around giant slow moving asteroids and avoid smaller fast moving asteroids. They come at your ship from all directions. Some of the smaller boulders hit your ship and damage your port (left) engine. The enemy ship is begining to catch up and you are down to only one engine. You decide to make a risky manuever and fly toward a large asteroid. The plan is to move at the last moment and get the enemy ship to crash (and hope you don&#39t crash in the process). You find an asteroid to use, but do you steer left or right at the final moment?"
+  },
+  {
+    "button1": "Head for the class one",
+    "button2": "Head for the class two",
+    "display": "",
+    "image": "",
+    "story": "02212",
+    "text": "You decide to chart a path to the nebula. With the enemy vessel in quick pursuit, you make it to the nebula. You must find a place in the nebula to hide from the enemy ship so you can lose them. There are several spots, but you narrow it down to two. There is a class one (the roughest) cloud formation or a class two (not as rough) cloud formation. Which storm should you head for?"
+  },
+  {
+    "button1": "Yes",
+    "button2": "No",
+    "display": "none",
+    "success": false,
+    "image": "",
+    "story": "02221",
+    "text": "You jump into an escape pod and eject from the ship. The enemy vessel begins boarding the ship as your pod moves away from the fracass. You are home free... Suddenly, there is a blinding light and you have been vaporized. The enemy ship spotted you and fired a heat beam at your pod. <br><br>THE END"
+  },
+  {
+    "button1": "Yes",
+    "button2": "No",
+    "display": "none",
+    "success": false,
+    "image": "",
+    "story": "02222",
+    "text": "You run to the armory and grab some blasters. The enemy vessel begins boarding the ship and you have a shootout. At first you hold your ground, but you are quickly overwhelmed. A light grenade lands at your feet and you are vaporized. <br><br>THE END"
+  },
+  {
+    "button1": "Yes",
+    "button2": "No",
+    "display": "none",
+    "success": false,
+    "image": "",
+    "story": "011111",
+    "text": "You make a run for the entrance. The dragon pauses for a moment, then release a giant ice wave at you. You are instantly frozen and turned into an ice block, much like Han Solo in Empire. <br><br>THE END"
+  },
+  {
+    "button1": "Yes",
+    "button2": "No",
+    "display": "none",
+    "success": false,
+    "image": "",
+    "story": "011112",
+    "text": "You run deeper into the cave. As you feel around in the darkness of the cave, you feel something move. You notice a pair of eyes!!! It&#39s the dragons mate... The creature opens its mouth and breathes a giant ice wave on you. You are instantly frozen and turned in to an ice block, much like Han Solo in Empore. <br><br>THE END"
+  },
+  {
+    "button1": "Yes",
+    "button2": "No",
+    "display": "none",
+    "success": true,
+    "image": "",
+    "story": "011121",
+    "text": "You decide to help the creature. As the dragon throws ice rocks at the soldiers, you sneak along the walls and suprise a soldier by taking his blaster. You begin firing at the soldiers and suddenly more dragons emerge from the darkness of the cave. The  soldiers quickly retreat. After the skirmish, the creatures thank you and explain they are the last of their kind. The quietly go back in the darkness of the cave and wish you good luck. <br><br>THE END"
+  },
+  {
+    "button1": "Yes",
+    "button2": "No",
+    "display": "none",
+    "success": false,
+    "image": "",
+    "story": "011122",
+    "text": "You decide to get out of the way. The dragon throws ice rocks at the soldiers and they keep firing their blasters. A soldier stumbles over you and jabs his blaster at your stomach. You lay there on the ground as more dragons emerge from the darkness and send ice waves toward you and the soldiers. Soon, you and the soldiers are incased in ice. Frozen for eternity... The dragons go back into the darkness of the cave <br><br>THE END"
+  },
+  {
+    "button1": "Yes",
+    "button2": "No",
+    "display": "none",
+    "success": true,
+    "image": "",
+    "story": "011211",
+    "text": "You decide to help the creature. As the dragon throws ice rocks at the soldiers, you sneak along the walls and suprise a soldier by taking his blaster. You begin firing at the soldiers and suddenly more dragons emerge from the darkness of the cave. The  soldiers quickly retreat. After the skirmish, the creatures thank you and explain they are the last of their kind. They quietly go back in the darkness of the cave and wish you good luck. <br><br>THE END"
+  },
+  {
+    "button1": "Yes",
+    "button2": "No",
+    "display": "none",
+    "success": false,
+    "image": "",
+    "story": "011212",
+    "text": "You decide to get out of the way. The dragon throws ice rocks at the soldiers and they keep firing their blasters. A soldier stumbles over you and jabs his blaster at your stomach. You lay there on the ground as more dragons emerge from the darkness and send ice waves toward you and the soldiers. Soon, you and the soldiers are incased in ice. Frozen for eternity... The dragons go back into the darkness of the cave <br><br>THE END"
+  },
+  {
+    "button1": "Yes",
+    "button2": "No",
+    "display": "none",
+    "success": true,
+    "image": "",
+    "story": "011221",
+    "text": "You decide to help the creature. As the dragon throws ice rocks at the soldiers, you sneak along the walls and suprise a soldier by taking his blaster. You begin firing at the soldiers and suddenly more dragons emerge from the darkness of the cave. The  soldiers quickly retreat. After the skirmish, the creatures thank you and explain they are the last of their kind. The quietly go back in the darkness of the cave and wish you good luck. <br><br>THE END"
+  },
+  {
+    "button1": "Yes",
+    "button2": "No",
+    "display": "none",
+    "success": false,
+    "image": "",
+    "story": "011222",
+    "text": "You decide to get out of the way. The dragon throws ice rocks at the soldiers and they keep firing their blasters. A soldier stumbles over you and jabs his blaster at your stomach. You lay there on the ground as more dragons emerge from the darkness and send ice waves toward you and the soldiers. Soon, you and the soldiers are incased in ice. Frozen for eternity... The dragons go back into the darkness of the cave <br><br>THE END"
+  },
+  {
+    "button1": "Yes",
+    "button2": "No",
+    "display": "none",
+    "success": false,
+    "image": "",
+    "story": "012111",
+    "text": "You attempt to block her attack. Her two-handed sword shatters your flimsy little sword and you are slain. <br><br>Stabula stands over you and cackles, &#34;Ha, ha, ha.... You chose the wrong weapon. That sword was made of cheap metal&#34; <br><br>THE END"
+  },
+  {
+    "button1": "Yes",
+    "button2": "No",
+    "display": "none",
+    "success": false,
+    "image": "",
+    "story": "012112",
+    "text": "You attempt to roll away. For a moment you escape her attack, but she lunges with her sword and you throw your sword up to block. Her sword shatters your sword and you are slain. <br><br>Stabula stands over you and cackles, &#34;Ha, ha, ha.... You chose the wrong weapon. That sword was made of cheap metal&#34; <br><br>THE END"
+  },
+  {
+    "button1": "Yes",
+    "button2": "No",
+    "display": "none",
+    "success": true,
+    "image": "",
+    "story": "012121",
+    "text": "You quickly jab her mid-section with the end of your staff. Stabula goes flying to the ground and loses her two-handed sword. You have defeated her!!! According to the rules of the Morok Clan, you are now the new leader. Stabula, gets to her feet and declares you the new leader. Everybody cheers... <br><br>THE END"
+  },
+  {
+    "button1": "Yes",
+    "button2": "No",
+    "display": "none",
+    "success": true,
+    "image": "",
+    "story": "012122",
+    "text": "You sweep her legs and Stabula goes flying to the ground losing her two-handed sword. You have defeated her!!! According to the rules of the Morok Clan, you are now the new leader. Stabula, gets to her feet and declares you the new leader. Everybody cheers... <br><br>THE END"
+  },
+  {
+    "button1": "Yes",
+    "button2": "No",
+    "display": "none",
+    "image": "",
+    "story": "012211",
+    "success": true,
+    "text": "You try to sweep his legs. Yonek is suprised and he goes flying to the floor. You quickly get up and pounce on Yonek. <br><br>Megatronic declares, &#34;You have fought well. You are truly evil! Join me and my marauders.&#34; <br><br>You are now one of Megatronic&#39s evil marauders creating havoc throughout the galazy <br><br>THE END"
+  },
+  {
+    "button1": "Yes",
+    "button2": "No",
+    "display": "none",
+    "success": false,
+    "image": "",
+    "story": "012212",
+    "text": "You quickly try to get to your feet, but Yonek is ready. He swiftly knocks you unconscious. <br><br>Megatronice declares, &#34;You are not worth!!!&#34; <br><br>You are vaporized <br><br>THE END"
+  },
+  {
+    "button1": "Yes",
+    "button2": "No",
+    "display": "none",
+    "success": true,
+    "image": "",
+    "story": "012221",
+    "text": "You make a run for the light. As you get closer, you realize it&#39s an exit out of the building. You quickly close the door behind you and keep on running. You survived!!! <br><br>THE END"
+  },
+  {
+    "button1": "Yes",
+    "button2": "No",
+    "display": "none",
+    "success": false,
+    "image": "",
+    "story": "012222",
+    "text": "You continue to battle Megatronic and send a frontal jab at his mid-section with your sword. He blocks your attack and sends your sword hurling out of you hands. Megatronic strikes you with his sword and your are vaporized <br><br>THE END"
+  },
+  {
+    "button1": "Yes",
+    "button2": "No",
+    "display": "none",
+    "success": true,
+    "image": "",
+    "story": "021111",
+    "text": "You run down the left corridor with Danii. At the end of the corridor, you see your ship and quickly close the airlock. While you get to the command center, Danii runs to the ventral cannon. She blasts the enemy ship and disables it while you pilot your ship away. You and Danii have safely found you way back home <br><br>THE END"
+  },
+  {
+    "button1": "Yes",
+    "button2": "No",
+    "display": "none",
+    "success": false,
+    "image": "",
+    "story": "021112",
+    "text": "You run down the right corridor with Danii. At the end of the corridor is a dead end. You are trapped!!! Putrice and her army surround you. She orders them to blast you. Both you and Danii are disintegrated. <br><br>THE END"
+  },
+  {
+    "button1": "Yes",
+    "button2": "No",
+    "display": "none",
+    "success": false,
+    "image": "",
+    "story": "021121",
+    "text": "You decide to thumb wrestle the weapons engineer. She walks toward you. You are very confident because she is half your size. The thumb war begins and in a blink of an eye, she has captured you thumb. <br><br>Putrice roars, &#34;She is our reigning champion... You have chosen poorly! You are now the toilet cleaner.&#34; <br><br>THE END"
+  },
+  {
+    "button1": "Yes",
+    "button2": "No",
+    "display": "none",
+    "success": true,
+    "image": "",
+    "story": "021122",
+    "text": "You decide to thumb wrestle the navigational engineer. He walks toward you. You are not very confident becasue he is twice your size. The thumb war begins and in a blink of an eye, you have captured his thumb. <br><br>Putrice roars, &#34;He is our worst thumb wrestler... You have chosen wisely! You are now the navigational engineer.&#34; <br><br>THE END"
+  },
+  {
+    "button1": "Yes",
+    "button2": "No",
+    "display": "",
+    "image": "",
+    "story": "021211",
+    "text": "text"
+  },
+  {
+    "button1": "Yes",
+    "button2": "No",
+    "display": "",
+    "image": "",
+    "story": "021212",
+    "text": "text"
+  },
+  {
+    "button1": "Yes",
+    "button2": "No",
+    "display": "none",
+    "success": false,
+    "image": "",
+    "story": "021221",
+    "text": "You attempt a swift chop with your saber. Putrice is ready and blocks your attack. She sends her foot at your chest and you go flying into the air. You lose grip of your saber and she strikes you with her sword. You are vaporized <br><br>THE END"
+  },
+  {
+    "button1": "Yes",
+    "button2": "No",
+    "display": "none",
+    "success": true,
+    "image": "",
+    "story": "021222",
+    "text": "You attempt to sweep her legs. Putrice is surprised and she goes flying to the ground. You quickly pounce on the opportunity and slay her. She vaporizes!!! Fearful of your skill, her people flee and let you leave. You find your way back home <br><br>THE END"
+  },
+  {
+    "button1": "Yes",
+    "button2": "No",
+    "display": "none",
+    "success": true,
+    "image": "",
+    "story": "022111",
+    "text": "You stear left and just graze the asteroid. The enemy ship is unable to avoid the asteroid and collides. You safely navigate out of the asteroid field and back home <br><br>THE END"
+  },
+  {
+    "button1": "Yes",
+    "button2": "No",
+    "display": "none",
+    "success": false,
+    "image": "",
+    "story": "022112",
+    "text": "You stear right and collide with an oncoming asteroid. You ship is destroyed in a ball of fire. <br><br>THE END"
+  },
+  {
+    "button1": "Yes",
+    "button2": "No",
+    "display": "none",
+    "success": true,
+    "image": "",
+    "story": "022121",
+    "text": "You navigate into the class one nebula cloud. The enemy ship follows you in and is hit by a large magnetic bolt. It is destroyed. Luckily, you are able to make it out of the cloud without being hit and find your way back home. <br><br>THE END"
+  },
+  {
+    "button1": "Yes",
+    "button2": "No",
+    "display": "none",
+    "success": false,
+    "image": "",
+    "story": "022122",
+    "text": "You navigate into the class two nebula cloud. A small magnetic bolt hits the side of your ship and disables your shields. The enemy ship follows you in and catches up to you. It fires at your engines and cripples your ship. Another magnetic bolt hits your ship and it explodes before you can make it to an escape pod. <br><br>THE END"
+  },
+  {
+    "button1": "Yes",
+    "button2": "No",
+    "display": "",
+    "image": "",
+    "story": "022211",
+    "text": "text"
+  },
+  {
+    "button1": "Yes",
+    "button2": "No",
+    "display": "",
+    "image": "",
+    "story": "022212",
+    "text": "text"
+  },
+  {
+    "button1": "Yes",
+    "button2": "No",
+    "display": "",
+    "image": "",
+    "story": "022221",
+    "text": "text"
+  },
+  {
+    "button1": "Yes",
+    "button2": "No",
+    "display": "",
+    "image": "",
+    "story": "022222",
+    "text": "text"
+  }
+]
