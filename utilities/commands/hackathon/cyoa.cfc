@@ -49,7 +49,7 @@ component extends="commandbox.system.BaseCommand" {
             return endGame( scene );
 
         // No?, well prompt the next choices
-        var answer = question( "What would you like to do?", [{ display: scene.button1, value: "1"},{ display: scene.button2, value: "2"}]  );
+        var answer = question( "What would you like to do?", [{ display: cleanString( scene.button1 ), value: "1"},{ display: cleanString( scene.button2 ), value: "2"}]  );
         // recurse to next scene (choice & answer, i.e. User chose second option on the first scene = "012", first option on the second scene = "0121", etc...)
         gameLoop( story, choice & answer );
 
@@ -87,7 +87,7 @@ component extends="commandbox.system.BaseCommand" {
     }
 
     function sayQuestion( question, options ){
-        say( question.reReplace("<[^>]*>", "","all") );
+        say( cleanString( question ) );
         var speakOptions = options.reduce( (prev,cur)=>{
             prev.append( cleanString( cur.display ) );
                 return prev;
@@ -97,7 +97,7 @@ component extends="commandbox.system.BaseCommand" {
 
     function say( text ){
         if( this.voice )
-            command('!say "#text.reReplace("<[^>]*>", "","all")#"').run();
+            command('!say "#cleanString( text )#"').run();
     }
 
     function question( string question, array options ){
@@ -111,8 +111,8 @@ component extends="commandbox.system.BaseCommand" {
     function cleanString( text ){
         return text
             .reReplace("<[^>]*>", "","all")
-            .reReplace("@##39;", '"',"all")
-            .reReplace("@##34;", '"',"all");
+            .reReplace("&##39;", '"',"all")
+            .reReplace("&##34;", '"',"all");
     }
     function printFormattedSceneText( text ){
         var formattedText = cleanString( text.replaceNoCase('<br>',chr(999),'all') );
