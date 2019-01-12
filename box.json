@@ -3,7 +3,10 @@
     "bugs":"",
     "changelog":"",
     "contributors":[],
-    "dependencies":{"hackathon-commands":"folder:utilities/"},
+    "dependencies":{
+        "hackathon-commands":"folder:utilities/",
+        "Commandbox-ImagetoASCII":"https://github.com/bdw429s/CommandBox-Image-To-ASCII"
+    },
     "description":"",
     "devDependencies":{},
     "documentation":"",
@@ -52,5 +55,10 @@
         "watchPaths":"**.cfc"
     },
     "type":"",
-    "version":""
+    "version":"",
+    "installPaths":{
+        "Commandbox-ImagetoASCII":"Commandbox-ImagetoASCII/",
+        "images":"images/",
+        "stories":"stories/"
+    }
 }
