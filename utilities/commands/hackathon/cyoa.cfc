@@ -89,7 +89,7 @@ component extends="commandbox.system.BaseCommand" {
     function sayQuestion( question, options ){
         say( question.reReplace("<[^>]*>", "","all") );
         var speakOptions = options.reduce( (prev,cur)=>{
-            prev.append( cur.display.reReplace("<[^>]*>", "","all") );
+            prev.append( cleanString( cur.display ) );
                 return prev;
         }, []).toList(" or ");
         say( speakOptions );
@@ -108,10 +108,14 @@ component extends="commandbox.system.BaseCommand" {
                     .setRequired( true )
                     .setMultiple( false ).ask();
     }
-
+    function cleanString( text ){
+        return text
+            .reReplace("<[^>]*>", "","all")
+            .reReplace("@##39;", '"',"all")
+            .reReplace("@##34;", '"',"all");
+    }
     function printFormattedSceneText( text ){
-        var formattedText = text.replaceNoCase('<br>',chr(999),'all')
-                                .reReplace("<[^>]*>", "","all");
+        var formattedText = cleanString( text.replaceNoCase('<br>',chr(999),'all') );
         formattedText.listToArray(chr(999)).each( (line)=>{
             print.boldGreenLine( line ).toConsole();            
         });
@@ -170,7 +174,7 @@ component extends="commandbox.system.BaseCommand" {
         var uniqueImagePath = getTempDirectory() & createUUID() & "." & listLast( path, "." );
        
         fileCopy( 'assets/' & path, uniqueImagePath );
-        
+
         command( 'ImageToASCII' )
             .params( uniqueImagePath ).run();
 
