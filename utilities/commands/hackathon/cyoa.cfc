@@ -60,8 +60,10 @@ component extends="commandbox.system.BaseCommand" {
     function endGame( scene ){
         
         if( scene.success ){
+            say( "YOU WIN!");
             renderSceneImage( 'images/success.png' )
         } else {
+            say( "YOU LOSE!");
             renderSceneImage( 'images/failure.png' )
         }
 
@@ -119,7 +121,7 @@ component extends="commandbox.system.BaseCommand" {
         formattedText.listToArray(chr(999)).each( (line)=>{
             print.boldGreenLine( line ).toConsole();            
         });
-        say( text );
+        say( cleanString( text ) );
 
         return;
     }
